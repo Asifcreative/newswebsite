@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import News from './components/News';
 import LoadingBar from 'react-top-loading-bar'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import NewsMarquee from './components/NewsMarquee';
+// import NewsMarquee from './components/NewsMarquee';
 import NewsSlider from './components/NewsSlider';
 
 const App = () => {
@@ -22,7 +22,7 @@ const App = () => {
           color='#f11946'
           progress={progress}
         />
-        <NewsMarquee  setProgress={setProgress} apiKey={apiKey} key="entertainment" pageSize={pageSize} country={country} category="entertainment"  />
+//         <NewsMarquee  setProgress={setProgress} apiKey={apiKey} key="entertainment" pageSize={pageSize} country={country} category="entertainment"  />
         <Switch>
           <Route exact path="/"><NewsSlider setProgress={setProgress} apiKey={apiKey} key="general" pageSize={pageSize} country="us" category="general" /></Route>
           <Route exact path="/business"><NewsSlider setProgress={setProgress} apiKey={apiKey} key="business" pageSize={pageSize} country="us" category="business" /></Route>
