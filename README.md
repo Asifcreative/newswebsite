@@ -62,3 +62,60 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/asifjaved-dev/React-NewsWebsite.git
    cd React-NewsWebsite
+
+2. **Install dependencies**:
+    ```bash
+       npm install
+
+3. **Set Up API Key**:  
+   - Sign up for an API key on News API.
+   - Create a .env file in the project root and add:
+   ```env
+       REACT_APP_NEWS_API_KEY=your_news_api_key
+   ```
+
+5. **Start the Development Server**:
+    ```bash
+      npm start
+    ```
+    
+6. **Open the app in your browser**:  
+   Open your browser and navigate to:  
+  [http://localhost:3000](http://localhost:3000)
+---
+
+
+## 🌟 Future Enhancements
+   - Add dark mode support for better user experience.
+   - Implement infinite scrolling for news articles.
+   - Add user authentication for personalized news feeds.
+
+---
+
+## 📚 Learn More
+   - [React.js Documentation](https://legacy.reactjs.org/docs/getting-started.html)
+   - [News API Documentation](#)
+
+---
+
+## 🤝 Contributing  
+Contributions are welcome! Please follow these steps:
+- Fork the repository
+- Create a feature branch: git checkout -b feature-name  
+- Commit your changes: git commit -m 'Add some feature'.
+- Push to the branch: git push origin feature-name.
+- Open a pull request.
+
+---
+
+## 📧 Contact
+   **Author**: Asif Javed
+   - [GitHub](https://github.com/asifjaved-dev)
+   - [Portfolio](http://asifjaved.work/)
+   - [LinkedIn](https://www.linkedin.com/in/asifjaved-dev/)
+
+---
+
+## ⭐ If you found this project helpful, please give it a star! ⭐
+
+---
