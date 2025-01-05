@@ -94,7 +94,7 @@ Ensure you have the following installed:
 
 ## 📚 Learn More
    - [React.js Documentation](https://legacy.reactjs.org/docs/getting-started.html)
-   - [News API Documentation](#)
+   - [News API Documentation](https://newsapi.org/)
 
 ---
 
